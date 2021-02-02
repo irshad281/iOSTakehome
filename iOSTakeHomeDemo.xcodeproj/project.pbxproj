@@ -23,6 +23,7 @@
 		5F06A5DB25C91C3C00CF1BB4 /* TagCellLayoutDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06A5D725C91C3C00CF1BB4 /* TagCellLayoutDelegate.swift */; };
 		5F06A5DC25C91C3C00CF1BB4 /* TagCellLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06A5D825C91C3C00CF1BB4 /* TagCellLayout.swift */; };
 		5F06A5DD25C91C3C00CF1BB4 /* LayoutAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06A5D925C91C3C00CF1BB4 /* LayoutAlignment.swift */; };
+		5F06A5E025C91E0000CF1BB4 /* TagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06A5DF25C91E0000CF1BB4 /* TagCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		5F06A5D725C91C3C00CF1BB4 /* TagCellLayoutDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagCellLayoutDelegate.swift; sourceTree = "<group>"; };
 		5F06A5D825C91C3C00CF1BB4 /* TagCellLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagCellLayout.swift; sourceTree = "<group>"; };
 		5F06A5D925C91C3C00CF1BB4 /* LayoutAlignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutAlignment.swift; sourceTree = "<group>"; };
+		5F06A5DF25C91E0000CF1BB4 /* TagCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCell.swift; sourceTree = "<group>"; };
 		C881AD507508D6D3DACE80E3 /* Pods-iOSTakeHomeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTakeHomeDemo.release.xcconfig"; path = "Target Support Files/Pods-iOSTakeHomeDemo/Pods-iOSTakeHomeDemo.release.xcconfig"; sourceTree = "<group>"; };
 		E0E6401BEC87F22FD0D3CFD0 /* Pods-iOSTakeHomeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTakeHomeDemo.debug.xcconfig"; path = "Target Support Files/Pods-iOSTakeHomeDemo/Pods-iOSTakeHomeDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		FE62A3A55EF0B2175F202750 /* Pods_iOSTakeHomeDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSTakeHomeDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -159,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				5F06A5C925C9154400CF1BB4 /* FeedCell.swift */,
+				5F06A5DF25C91E0000CF1BB4 /* TagCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				5F06A5C025C90BFD00CF1BB4 /* ApiManager.swift in Sources */,
 				5F06A5B425C905DE00CF1BB4 /* SwiftyJSON.swift in Sources */,
 				5F06A5CE25C9168600CF1BB4 /* ExtensionHelper.swift in Sources */,
+				5F06A5E025C91E0000CF1BB4 /* TagCell.swift in Sources */,
 				5F06A5A125C905A100CF1BB4 /* ViewController.swift in Sources */,
 				5F06A5DD25C91C3C00CF1BB4 /* LayoutAlignment.swift in Sources */,
 				5F06A5DA25C91C3C00CF1BB4 /* LayoutInfo.swift in Sources */,
