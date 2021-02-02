@@ -3,16 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24154FD5C074041D85A9ADAA /* Pods_iOSTakeHomeDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE62A3A55EF0B2175F202750 /* Pods_iOSTakeHomeDemo.framework */; };
 		5F06A59D25C905A100CF1BB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06A59C25C905A100CF1BB4 /* AppDelegate.swift */; };
 		5F06A5A125C905A100CF1BB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06A5A025C905A100CF1BB4 /* ViewController.swift */; };
 		5F06A5A425C905A100CF1BB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F06A5A225C905A100CF1BB4 /* Main.storyboard */; };
 		5F06A5A625C905A200CF1BB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F06A5A525C905A200CF1BB4 /* Assets.xcassets */; };
 		5F06A5A925C905A200CF1BB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F06A5A725C905A200CF1BB4 /* LaunchScreen.storyboard */; };
 		5F06A5B425C905DE00CF1BB4 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06A5B325C905DE00CF1BB4 /* SwiftyJSON.swift */; };
+		5F06A5C025C90BFD00CF1BB4 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06A5BF25C90BFD00CF1BB4 /* ApiManager.swift */; };
+		5F06A5C325C910B500CF1BB4 /* FeedURLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06A5C225C910B500CF1BB4 /* FeedURLBuilder.swift */; };
+		5F06A5C625C912C500CF1BB4 /* FeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06A5C525C912C500CF1BB4 /* FeedModel.swift */; };
+		5F06A5CA25C9154400CF1BB4 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06A5C925C9154400CF1BB4 /* FeedCell.swift */; };
+		5F06A5CE25C9168600CF1BB4 /* ExtensionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06A5CD25C9168600CF1BB4 /* ExtensionHelper.swift */; };
+		5F06A5DA25C91C3C00CF1BB4 /* LayoutInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06A5D625C91C3C00CF1BB4 /* LayoutInfo.swift */; };
+		5F06A5DB25C91C3C00CF1BB4 /* TagCellLayoutDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06A5D725C91C3C00CF1BB4 /* TagCellLayoutDelegate.swift */; };
+		5F06A5DC25C91C3C00CF1BB4 /* TagCellLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06A5D825C91C3C00CF1BB4 /* TagCellLayout.swift */; };
+		5F06A5DD25C91C3C00CF1BB4 /* LayoutAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06A5D925C91C3C00CF1BB4 /* LayoutAlignment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,18 @@
 		5F06A5A825C905A200CF1BB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F06A5AA25C905A200CF1BB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F06A5B325C905DE00CF1BB4 /* SwiftyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		5F06A5BF25C90BFD00CF1BB4 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		5F06A5C225C910B500CF1BB4 /* FeedURLBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedURLBuilder.swift; sourceTree = "<group>"; };
+		5F06A5C525C912C500CF1BB4 /* FeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedModel.swift; sourceTree = "<group>"; };
+		5F06A5C925C9154400CF1BB4 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		5F06A5CD25C9168600CF1BB4 /* ExtensionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionHelper.swift; sourceTree = "<group>"; };
+		5F06A5D625C91C3C00CF1BB4 /* LayoutInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutInfo.swift; sourceTree = "<group>"; };
+		5F06A5D725C91C3C00CF1BB4 /* TagCellLayoutDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagCellLayoutDelegate.swift; sourceTree = "<group>"; };
+		5F06A5D825C91C3C00CF1BB4 /* TagCellLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagCellLayout.swift; sourceTree = "<group>"; };
+		5F06A5D925C91C3C00CF1BB4 /* LayoutAlignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutAlignment.swift; sourceTree = "<group>"; };
+		C881AD507508D6D3DACE80E3 /* Pods-iOSTakeHomeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTakeHomeDemo.release.xcconfig"; path = "Target Support Files/Pods-iOSTakeHomeDemo/Pods-iOSTakeHomeDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E0E6401BEC87F22FD0D3CFD0 /* Pods-iOSTakeHomeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTakeHomeDemo.debug.xcconfig"; path = "Target Support Files/Pods-iOSTakeHomeDemo/Pods-iOSTakeHomeDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FE62A3A55EF0B2175F202750 /* Pods_iOSTakeHomeDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSTakeHomeDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24154FD5C074041D85A9ADAA /* Pods_iOSTakeHomeDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04A361740CDBEA01297912F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE62A3A55EF0B2175F202750 /* Pods_iOSTakeHomeDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39B8374EF0DDC811E09EDE6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0E6401BEC87F22FD0D3CFD0 /* Pods-iOSTakeHomeDemo.debug.xcconfig */,
+				C881AD507508D6D3DACE80E3 /* Pods-iOSTakeHomeDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5F06A59025C905A100CF1BB4 = {
 			isa = PBXGroup;
 			children = (
 				5F06A59B25C905A100CF1BB4 /* iOSTakeHomeDemo */,
 				5F06A59A25C905A100CF1BB4 /* Products */,
+				39B8374EF0DDC811E09EDE6E /* Pods */,
+				04A361740CDBEA01297912F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +98,7 @@
 		5F06A59B25C905A100CF1BB4 /* iOSTakeHomeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5F06A5D425C91BF500CF1BB4 /* TagsCollection */,
 				5F06A5BC25C9069800CF1BB4 /* Common */,
 				5F06A5B225C905D000CF1BB4 /* SwiftyJSON */,
 				5F06A5B925C9066B00CF1BB4 /* Model */,
@@ -80,6 +123,7 @@
 		5F06A5B925C9066B00CF1BB4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5F06A5C525C912C500CF1BB4 /* FeedModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -87,6 +131,7 @@
 		5F06A5BA25C9067700CF1BB4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5F06A5C825C9153A00CF1BB4 /* Cells */,
 				5F06A5A225C905A100CF1BB4 /* Main.storyboard */,
 			);
 			path = Views;
@@ -103,8 +148,30 @@
 		5F06A5BC25C9069800CF1BB4 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				5F06A5BF25C90BFD00CF1BB4 /* ApiManager.swift */,
+				5F06A5C225C910B500CF1BB4 /* FeedURLBuilder.swift */,
+				5F06A5CD25C9168600CF1BB4 /* ExtensionHelper.swift */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		5F06A5C825C9153A00CF1BB4 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5F06A5C925C9154400CF1BB4 /* FeedCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5F06A5D425C91BF500CF1BB4 /* TagsCollection */ = {
+			isa = PBXGroup;
+			children = (
+				5F06A5D925C91C3C00CF1BB4 /* LayoutAlignment.swift */,
+				5F06A5D625C91C3C00CF1BB4 /* LayoutInfo.swift */,
+				5F06A5D825C91C3C00CF1BB4 /* TagCellLayout.swift */,
+				5F06A5D725C91C3C00CF1BB4 /* TagCellLayoutDelegate.swift */,
+			);
+			path = TagsCollection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -114,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F06A5AD25C905A200CF1BB4 /* Build configuration list for PBXNativeTarget "iOSTakeHomeDemo" */;
 			buildPhases = (
+				3145287EF7396DE09F54823D /* [CP] Check Pods Manifest.lock */,
 				5F06A59525C905A100CF1BB4 /* Sources */,
 				5F06A59625C905A100CF1BB4 /* Frameworks */,
 				5F06A59725C905A100CF1BB4 /* Resources */,
+				4AE18B2D88D4A47A353DB198 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -172,13 +241,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3145287EF7396DE09F54823D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSTakeHomeDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AE18B2D88D4A47A353DB198 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSTakeHomeDemo/Pods-iOSTakeHomeDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSTakeHomeDemo/Pods-iOSTakeHomeDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSTakeHomeDemo/Pods-iOSTakeHomeDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5F06A59525C905A100CF1BB4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F06A5CA25C9154400CF1BB4 /* FeedCell.swift in Sources */,
+				5F06A5DB25C91C3C00CF1BB4 /* TagCellLayoutDelegate.swift in Sources */,
+				5F06A5C325C910B500CF1BB4 /* FeedURLBuilder.swift in Sources */,
+				5F06A5DC25C91C3C00CF1BB4 /* TagCellLayout.swift in Sources */,
+				5F06A5C625C912C500CF1BB4 /* FeedModel.swift in Sources */,
+				5F06A5C025C90BFD00CF1BB4 /* ApiManager.swift in Sources */,
 				5F06A5B425C905DE00CF1BB4 /* SwiftyJSON.swift in Sources */,
+				5F06A5CE25C9168600CF1BB4 /* ExtensionHelper.swift in Sources */,
 				5F06A5A125C905A100CF1BB4 /* ViewController.swift in Sources */,
+				5F06A5DD25C91C3C00CF1BB4 /* LayoutAlignment.swift in Sources */,
+				5F06A5DA25C91C3C00CF1BB4 /* LayoutInfo.swift in Sources */,
 				5F06A59D25C905A100CF1BB4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,6 +443,7 @@
 		};
 		5F06A5AE25C905A200CF1BB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0E6401BEC87F22FD0D3CFD0 /* Pods-iOSTakeHomeDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -341,6 +462,7 @@
 		};
 		5F06A5AF25C905A200CF1BB4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C881AD507508D6D3DACE80E3 /* Pods-iOSTakeHomeDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
